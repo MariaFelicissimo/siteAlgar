@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #6a0dad; /* Fundo verde-água na página sobre nós */
+            color: #ffffff; /* Texto preto na página sobre nós */
+            text-align: center;
+            min-height: 100vh; /* Definindo a altura mínima do corpo para ocupar toda a altura da janela de visualização */
+            position: relative; /* Adicionando posicionamento relativo para o posicionamento absoluto da imagem de fundo */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 85px auto 0; /* Distância de 85px da margem superior */
+            display: flex; /* Adicionando flexbox para alinhar a imagem e o conteúdo */
+            align-items: center; /* Alinhando verticalmente */
+            justify-content: space-between; /* Espaçamento igual entre a imagem e o conteúdo */
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo transparente preto */
+            padding: 20px; /* Adicionando um preenchimento para melhorar a aparência */
+            position: relative; /* Posicionamento relativo para a posição absoluta da imagem */
+        }
+
+        header {
+            padding: 10px 0 0; /* Ajustando a margem superior e inferior */
+            flex: 1; /* Garantindo que o cabeçalho expanda conforme necessário */
+        }
+
+        p {
+            margin: 20px 0; /* Margem menor para o texto */
+            line-height: 1.6;
+        }
+
+        .left-image {
+            max-width: 40%; /* Reduzindo o tamanho da imagem para 40% */
+            margin-top: 20px; /* Adicionando espaço acima da imagem */
+            margin-bottom: 20px; /* Adicionando espaço abaixo da imagem */
+            margin-right: 20px; /* Adicionando margem à direita da imagem */
+            background-position: center; /* Ajustando a posição da imagem para o centro */
+        }
+
+        .bottom-container {
+            max-width: 1200px;
+            margin: 85px auto 0; /* Distância de 85px da margem superior */
+            display: flex; /* Adicionando flexbox para alinhar a imagem e o conteúdo */
+            align-items: center; /* Alinhando verticalmente */
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo transparente preto */
+            padding: 20px; /* Adicionando um preenchimento para melhorar a aparência */
+            position: relative; /* Posicionamento relativo para a posição absoluta da imagem */
+        }
+
+        .bottom-image {
+            max-width: 40%; /* Reduzindo o tamanho da imagem para 40% */
+            margin-top: 20px; /* Adicionando espaço acima da imagem */
+            margin-bottom: 20px; /* Adicionando espaço abaixo da imagem */
+            margin-right: 20px; /* Adicionando margem à direita da imagem */
+            background-position: center; /* Ajustando a posição da imagem para o centro */
+        }
+
+        header.title {
+            font-weight: bold;
+            padding: 10px 0; /* Ajustando a margem superior e inferior */
+            font-size: 24px; /* Tamanho de fonte maior para o título */
+            margin-bottom: 10px; /* Adicionando margem inferior para separar do texto */
+        }
+
+        .objective-text {
+            font-size: 16px; /* Tamanho de fonte menor para o texto */
+            line-height: 1.6;
+        }
+
+        /* Estilos para o menu */
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333; /* Cor de fundo do menu */
+            padding: 10px 0; /* Espaçamento interno */
+            z-index: 1000; /* Garantindo que o menu fique em cima de outros elementos */
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .menu ul li {
+            display: inline;
+            margin: 0 10px; /* Espaçamento entre os itens do menu */
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #ffffff; /* Cor do texto do menu */
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .menu ul li a:hover {
+            color: #6a0dad; /* Cor do texto ao passar o mouse sobre o link */
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu Superior -->
+    <div class="menu">
+        <ul>
+            <li><a href="principal.html">Página Principal</a></li>
+            <li><a href="promocoes.html">Promoções</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div>
+            <header>
+                <h1>Sobre Nós</h1>
+            </header>
+            <p>Credenciada pela Algar, a Vamos Telecom tem uma trajetória sólida de 22 anos no mercado. Como parte do grupo Vamos, nossa empresa sempre manteve um compromisso inabalável com a satisfação dos clientes. Ao longo das duas décadas de atuação, consolidamos nossa posição graças à dedicação em oferecer soluções eficazes e confiáveis para as necessidades de telecomunicações, garantindo a tranquilidade e a eficiência das comunicações de nossos clientes.</p>
+        </div>
+        <img src="escritorio2.jpg" alt="Escritório" class="left-image">
+    </div>
+
+    <div class="bottom-container">
+        <img src="escritorio1.jpg" alt="Escritório" class="bottom-image">
+        <div>
+            <header class="title">Objetivo da empresa:</header>
+            <p class="objective-text">Nosso objetivo vai além do fornecimento de serviços de telefonia. Buscamos constantemente impulsionar melhorias no mercado, através do desenvolvimento e oferta de produtos e soluções inteligentes. Almejamos ser reconhecidos como uma empresa de excelência no cenário brasileiro, estabelecendo novos padrões de qualidade, inovação e atendimento ao cliente. Estamos comprometidos em superar as expectativas, oferecendo soluções que não apenas atendam, mas também antecipem as necessidades de nossos clientes, contribuindo para o crescimento e sucesso de seus negócios.</p>
+        </div>
+    </div>
+</body>
+</html>
