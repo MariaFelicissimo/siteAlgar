@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialistas Algar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: #ffffff; /* Texto branco */
+            background-image: url('Atendimento-algar-telecom.jpg');
+            background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+            background-position: center; /* Centraliza a imagem no fundo */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+            display: flex; /* Ativa o modelo de layout flexível */
+            flex-direction: column; /* Alinha os containers em coluna */
+            align-items: flex-end; /* Alinha o "Especialistas Algar" no canto superior direito */
+            justify-content: flex-start; /* Alinha o "Especialistas Algar" no canto superior direito */
+            height: 100vh; /* Define a altura total da viewport */
+            padding: 20px; /* Espaçamento interno */
+        }
+
+        .container {
+            width: 50%; /* Largura do contêiner */
+            padding: 10px; /* Espaçamento interno */
+            border-radius: 10px; /* Bordas arredondadas */
+            background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+            text-align: center; /* Alinha o texto à esquerda */
+            margin-bottom: 20px; /* Adiciona espaço abaixo do contêiner */
+            margin-top: 40px; /* Adiciona espaço acima do contêiner */
+        }
+
+        hr {
+            width: 100%; /* Define a largura da linha */
+            height: 1px; /* Define a altura da linha */
+            border: none;
+            background-color: #4fb3bf; /* Cor da linha */
+            margin: 5px 0; /* Espaçamento acima e abaixo da linha */
+        }
+
+        h1 {
+            font-size: 40px; /* Ajusta o tamanho do texto */
+            margin-bottom: 2px; /* Ajusta a margem inferior */
+        }
+
+        .contato {
+            width: 40%; /* Reduz a largura do contêiner */
+            text-align: center; /* Alinha o texto à esquerda */
+            align-self: flex-end; /* Alinha o "Entre em contato conosco" no canto inferior direito */
+            margin-top: auto; /* Move o "Entre em contato conosco" para baixo */
+            padding: 20px; /* Espaçamento interno */
+            border-radius: 10px; /* Bordas arredondadas */
+            background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+        }
+
+        .contato ul {
+            list-style: none; /* Remove os marcadores de lista */
+            padding: 0; /* Remove o espaçamento interno */
+        }
+
+        .contato ul li {
+            margin-bottom: 10px; /* Adiciona espaço entre os itens da lista */
+            font-size: 15px; /* Reduz o tamanho da fonte dos itens da lista */
+        }
+
+        /* Estilos para o menu */
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333; /* Cor de fundo do menu */
+            padding: 10px 0; /* Espaçamento interno */
+            z-index: 1000; /* Garantindo que o menu fique em cima de outros elementos */
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .menu ul li {
+            display: inline;
+            margin: 0 10px; /* Espaçamento entre os itens do menu */
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #ffffff; /* Cor do texto do menu */
+            font-weight: bold;
+            font-size: 16px; /* Ajusta o tamanho da fonte do menu */
+        }
+
+        .menu ul li a:hover {
+            color: #6a0dad; /* Cor do texto ao passar o mouse sobre o link */
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <ul>
+            <li><a href="promocoes.html">Promoções</a></li>
+            <li><a href="sobre-nos.html">Sobre Nós</a></li>
+            <!-- Adicione outros itens de menu conforme necessário -->
+        </ul>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Especialistas Algar</h1>
+            <hr> <!-- Separação -->
+        </header>
+    </div>
+    <div class="container contato">
+        <section id="contato">
+            <p>Entre em contato conosco:</p>
+            <ul>
+                <li>E-mail: <a href="mailto:Jefersoncafazzo@gmail.com">Jefersoncafazzo@gmail.com</a></li>
+                <li>Telefone: (16) 999733690</li>
+                <li>Endereço: Rua Doutor Nelsom Presoto, 1881 - São José - Franca - SP</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
